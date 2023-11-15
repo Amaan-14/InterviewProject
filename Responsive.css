@@ -1,0 +1,119 @@
+
+/* mobile */
+@media only screen and (max-device-width : 640px) {
+
+   
+    .about-heading2 {
+        font-weight: lighter;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    #slider-main > div{  
+        margin-left: 20px;
+        height: 220px;
+        width: 220px; 
+    }  
+
+    .slider-location-para{  
+        font-size: 1rem;
+    }
+
+    #pune{
+        
+        font-size: 2.5rem;
+        
+       
+    }
+    #slider-span{
+        font-size: 2.4em ;
+    }
+
+    #mumbai, #bengaluru {
+    
+        font-size: 1.4rem;
+    }
+    #bengaluru{
+        padding: 0 0 5px 12px;
+    }
+    
+   #slider-main{
+    height: 450px;  
+   }
+   .explore-span{
+    display: block;
+   }
+   .heading-explore{
+    
+    font-size: 2rem;
+   }
+   .explore-height{
+    height: 169.188px;
+   }
+   
+   #footer{
+    height: 300px;
+    padding: 0 10px;
+   }
+
+   .about-last-image{
+    height: 200px;
+
+   }
+
+   .about-image{
+    object-fit: cover;
+   }
+    .about-image{
+    box-sizing: border-box;
+    height: 40vw;
+    width: 100vw;
+   } 
+}
+
+/* tabs */
+@media only screen and (min-width: 641px) and (max-width: 1023px) {
+    #slider-main > div{  
+        margin-left: 30px;
+        height: 325px;
+        width: 400px; 
+    }
+    .explore-height{
+        height: 225.594px;
+    }
+
+    .imp-explore-height{
+        height: 150.594px!important;
+    }
+
+    #footer{
+         height: 300px;
+         padding: 0 10px;
+        }
+
+     
+    
+}
+
+/* laptop */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    #slider-main > div{  
+        margin-left: 100px;
+        height: 325px;
+        width: 400px; 
+    }
+    .explore-height{
+        height: 424px;
+    }
+}
+
+/* desktop */
+@media (min-width: 1367px) {
+
+     
+ .dropdown-menu{
+    width: 240px!important;
+ }
+ .nav-item{
+    padding: 0 15px;
+ }
+}
